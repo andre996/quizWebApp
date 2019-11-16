@@ -1,4 +1,4 @@
-# Project Title
+# Quiz Web App
 
 Web app to generate quizzes, take them, calculate grade per student and per class.
 
