@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 * mongoDB
 * npm/yarn
 * code editor
+* postman
 
 
 ### Installing
@@ -39,10 +40,17 @@ Open a new terminal and Second at **tesis-app folder** start the front-end
 npm start
 ```
 
-to get login as admin use this email an password:
+at the begin to get login as admin, you must post a user using postman:
 ```
-email:admin@gmail.com
-password:admin
+endpoint: http://localhost:3000/users
+
+{
+    "firstName":"Admin", 
+    "lastName": "Admin",
+    "email":  "admin@gmail.com",
+    "password": "admin",
+    "admin": true
+}
 ```
 
 ## Built With
