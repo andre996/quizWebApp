@@ -9,7 +9,7 @@
   "author": "Gonzalez_Prieto_Rodriguez",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "core-util-is": "^1.0.2",
     "cors": "^2.8.5",
